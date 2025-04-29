@@ -184,7 +184,7 @@ export function BlogList() {
                   {formatDate(blog.createdAt)}
                 </span>
                 <Link
-                  href={`/blog/${blog._id}`}
+                  href={`/blog/article?id=${blog._id}`}
                   className="inline-flex items-center gap-1 text-[#1a5fb4] text-sm font-medium hover:underline"
                 >
                   Read more <ArrowRight className="h-4 w-4" />
